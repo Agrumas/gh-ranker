@@ -1,0 +1,23 @@
+{
+  "name": "gh-ranker",
+  "version": "1.0.0",
+  "description": "Automatically evaluates Github project",
+  "main": "evaluator.js",
+  "scripts": {
+	"start": "node ./evaluator",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "github",
+    "evaluate"
+  ],
+  "author": "Algirdas Grumuldis",
+  "private": true,
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "console.table": "^0.9.1",
+    "flat": "^4.0.0",
+    "github": "^11.0.0",
+    "lodash": "^4.17.4"
+  }
+}
